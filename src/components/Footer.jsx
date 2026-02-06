@@ -1,7 +1,7 @@
 export default function Footer() {
   return (
-    <footer>
-      © {new Date().getFullYear()} IRA Technologies. All rights reserved.
+    <footer className="footer">
+      © {new Date().getFullYear()} IRA Tech Consulting
     </footer>
   )
 }
