@@ -1,11 +1,15 @@
-import Header from './components/Header'
-import Hero from './components/Hero'
+import Navbar from './components/Navbar'
+import Footer from './components/Footer'
+import AppRouter from './router'
 
 export default function App() {
   return (
-    <>
-      <Header />
-      <Hero />
-    </>
+    <div className="flex flex-col min-h-screen">
+      <Navbar />
+      <main className="flex-1">
+        <AppRouter />
+      </main>
+      <Footer />
+    </div>
   )
 }

@@ -1,13 +1,17 @@
+import ServicesSection from '../components/ServicesSection'
+
 export default function Services() {
   return (
-    <section className="max-w-7xl mx-auto px-6 py-16">
-      <h1 className="text-3xl font-bold mb-6">Our Services</h1>
-      <ul className="space-y-4">
-        <li>✔ IT Staffing</li>
-        <li>✔ IT Consulting</li>
-        <li>✔ Project Delivery</li>
-        <li>✔ Talent Solutions</li>
-      </ul>
-    </section>
+    <>
+      <div className="bg-white py-12">
+        <div className="max-w-7xl mx-auto px-6">
+          <h1 className="text-4xl font-bold text-gray-900">Services</h1>
+          <p className="mt-3 text-gray-600 max-w-2xl">
+            We provide flexible staffing and consulting solutions tailored to your organization’s needs.
+          </p>
+        </div>
+      </div>
+      <ServicesSection />
+    </>
   )
 }

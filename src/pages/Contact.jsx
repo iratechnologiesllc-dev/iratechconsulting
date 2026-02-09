@@ -1,9 +1,17 @@
+import ContactSection from '../components/ContactSection'
+
 export default function Contact() {
   return (
-    <section className="max-w-7xl mx-auto px-6 py-16">
-      <h1 className="text-3xl font-bold mb-4">Contact Us</h1>
-      <p className="mb-2">Email: info@iratechconsulting.com</p>
-      <p>We will respond within one business day.</p>
-    </section>
+    <>
+      <div className="bg-white py-12">
+        <div className="max-w-7xl mx-auto px-6">
+          <h1 className="text-4xl font-bold text-gray-900">Contact</h1>
+          <p className="mt-3 text-gray-600 max-w-2xl">
+            Share a bit about your needs and we’ll follow up shortly.
+          </p>
+        </div>
+      </div>
+      <ContactSection />
+    </>
   )
 }
